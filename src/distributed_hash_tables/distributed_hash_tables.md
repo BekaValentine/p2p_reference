@@ -1,5 +1,5 @@
 @title  Distributed Hash Tables
-@date   2023-08-10
+@date   2023-08-27
 @author beka
 @tags   distributed hash table, dht, distance metric, topology, routing, storage, search, query, range query, chord, kademlia, freenet, bittorrent, quadtree
 
