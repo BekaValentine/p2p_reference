@@ -470,6 +470,18 @@ One very interesting use case of this is to embed a quadtree into a DHT. In that
 
 Another interesting embedded structure is the Merkle Search Tree, which is a particular variation on the B-tree tuned for ensuring that data is fairly evenly distributed across all the nodes in the tree without any active re-balancing.
 
+If true graphs with cycles are necessary, not just DAGs, those can be embedded into DHTs too, but only into DHTs where the keys are not derived from the content. For instance, in IPFS's main DHT, you can only embed DAGs because content IDs in IPFS are derived from hashes of the content. But if keys are distinct from content then it's not a problem. IPNS, the personal namespace component of the IPFS system, does just this, by making the IPNS keys something derived from public keys, rather than from contents, and so arbitrary cyclic structures can be embedded via IPNS. The same holds true for any DHT with non-content-derived keys.
+
+## Key Control
+
+An interesting question that arises with public DHTs like IPFS or BitTorrent or any of the other systems is, who controls a key? That is to say, who is permitted to decide what gets stored under what keys? Imagine a situation where a DHT is being used as an alternative to DNS. Let's suppose that the content for the domain name `google` (no need for `.com` any more) is stored under the SHA-256 hash of the domain name. Who gets to store data there? Anyone? Just Google? How is that managed? Spammers would love to store data there. Google would love to stop them. How do we decide?
+
+The two main approaches that can be found in actually deployed DHTs is the approach that IPFS takes. The data DHT in IPFS has keys derived from content, and users cannot store arbitrary data at arbitrary keys, they can only store arbitrary data at a specific key derived from the data, so the key cannot be freely chosen. The other option in IPFS is the IPNS keyspace where the DHT keys are public keys in a public-private key pair, and then only the owner of the public key (i.e. the person who has the corresponding private key) can control the contents at that key.
+
+In IPFS's case specifically, and in BitTorrent's case, the data stored at the content-derived keys is actually not the content itself but the identities of providers of that data. Freenet, on the other hand, stores the data directly at the key. But the indirection is not that important, what matters is the key is derived from the content, not freely chosen.
+
+Many other options exist, of course. For instance, a key could be uncontrolled, and store just a giant set of values that people want to store. Or it could require some additional consensus process to decide whether content is stored or not. Or any number of things. The mechanism for doing key control will largely on what the purpose of the DHT is, because key control has major impacts on whether or not the DHT can do what it's intended.
+
 ## Limitations of DHTs
 
 While DHTs are amazing, interesting structures will many important uses, they are definitely limited. The keys in a DHT, when hashed, usually produce bitstrings that are wildly disconnected from the keys themselves, in unpredictable ways. As a result, two keys that are very similar, even identical except for one bit, will hash to completely different bitstrings. This is a useful property of hash functions like SHA-2, but it means that fundamentally, DHTs are about retrieving for *specific* keys. Even the embedded quadtree example which permits looking up data in a range of 2-d point valued keys, rather than one specific key, is still actually using the DHT to store only a single item for each actual key: the quadtree node.
