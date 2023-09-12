@@ -106,7 +106,7 @@ These are p2p systems that are actually deployed and used by people, rather than
 
 ## Incentives
 
-[An Incentives' Mechanism Promoting Truthful Feedback in Peer-to-Peer Systems](/paper/an_incentives_mechanism_promoting_truthful_feedback_in_peer_to_peer_systems.pdf) by Thanasis G. Papaioannou and George D. Stamoulis
+[An Incentives' Mechanism Promoting Truthful Feedback in Peer-to-Peer Systems](/papers/an_incentives_mechanism_promoting_truthful_feedback_in_peer_to_peer_systems.pdf) by Thanasis G. Papaioannou and George D. Stamoulis
 
 [Designing Incentives for Peer-to-Peer Routing](/papers/designing_incentives_for_peer_to_peer_routing.pdf) by Alberto Blanc, Yi-Kai Liu, and Amin Vahdat
 
@@ -116,7 +116,7 @@ These are p2p systems that are actually deployed and used by people, rather than
 
 [Incentives for Cooperation in Peer-to-Peer Networks](/papers/incentives_for_cooperation_in_peer_to_peer_networks.pdf) by Kevin Lai, Michal Feldman, Ion Stoica, John Chuang
 
-[Incentives for Large Peer-to-Peer Systems](/paper/incentives_for_large_peer_to_peer_systems.pdf) by Costas Courcoubetis and Richard Weber
+[Incentives for Large Peer-to-Peer Systems](/papers/incentives_for_large_peer_to_peer_systems.pdf) by Costas Courcoubetis and Richard Weber
 
 [Reputation-based policies that provide the right incentives in peer-to-peer environments](/papers/reputation_based_policies_that_provide_the_right_incentives_in_peer_to_peer_environments.pdf) by Thanasis G. Papaioannou and George D. Stamoulis
 
@@ -288,9 +288,9 @@ By similarity search, I mean to restrict to things which are not just some varia
 
 [A Survey of Peer-to-Peer Content Distribution Technologies](/papers/a_survey_of_peer_to_peer_content_distribution_technologies.pdf) by Stephanos Androutsellis-Theotokis and DIomidis Spinellis
 
-[Distributed Databases and Peer-to-Peer Databases: Past and Present](/paper/distributed_databases_and_peer_to_peer_databases_past_and_present.pdf) by Angela Bonifati, Panos K. Chrysanthis, Aris M. Ouksel, and Kai-Uwe Sattler
+[Distributed Databases and Peer-to-Peer Databases: Past and Present](/papers/distributed_databases_and_peer_to_peer_databases_past_and_present.pdf) by Angela Bonifati, Panos K. Chrysanthis, Aris M. Ouksel, and Kai-Uwe Sattler
 
-[Peer-to-Peer Research at Stanford](peer_to_peer_research_at_stanford.pdf) by Mayank Bawa, Brian F. Cooper, Arturo Crespo, Neil Daswani, Prasanna Ganesan, Hector Garcia-Molina, Sepandar Kamvar, Sergio Marti, Mario Schlosser, Qi Sun, Patrick Vinograd, and Beverley Yang
+[Peer-to-Peer Research at Stanford](/papers/peer_to_peer_research_at_stanford.pdf) by Mayank Bawa, Brian F. Cooper, Arturo Crespo, Neil Daswani, Prasanna Ganesan, Hector Garcia-Molina, Sepandar Kamvar, Sergio Marti, Mario Schlosser, Qi Sun, Patrick Vinograd, and Beverley Yang
 
 [Peer-to-Peer resource discovery in Grids: Models and systems](/papers/peer_to_peer_resource_discovery_in_grids_models_and_systems.pdf) by P. Trunfio, D. Talia, H. Papadakis, P. Fragopoulou, M. Mordacchini, M. Pennanen, K. Popov, V. Vlassov, and S. Haridi
 
