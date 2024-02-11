@@ -4,7 +4,7 @@ A reference for p2p tech
 
 ## Tooling Note
 
-This repo is meant to be used with my [php site generator](https://github.com/BekaValentine/python_site_generator).
+This repo is meant to be used with my [python site generator](https://github.com/BekaValentine/python_site_generator).
 
 Some documents contain attributes that can be used for other fun things. Here
 are some of them:
