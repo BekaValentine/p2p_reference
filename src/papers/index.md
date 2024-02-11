@@ -26,7 +26,7 @@ This is an index/taxonomy of a variety of papers that I'm reading in order to wr
 - [Surveys](papers#surveys)
 - [XML, RDF, etc.](papers#xml-rdf-etc)
 
-## Actually Existing Systems
+## Actually Existing Systems {#actually-existing-systems}
 
 These are p2p systems that are actually deployed and used by people, rather than being frameworks, etc. that other things might be built on.
 
