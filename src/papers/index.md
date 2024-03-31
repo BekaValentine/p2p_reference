@@ -174,6 +174,8 @@ These are p2p systems that are actually deployed and used by people, rather than
 
 [An efficient peer-to-peer indexing tree structure for multidimensional data](papers/an_efficient_peer_to_peer_indexing_tree_structure_for_multidimensional_data.pdf) by Rong Zhang, Weining Qian, Aoying Zhou, and Minqi Zhou
 
+[BATON: A Balanced Tree Structure for Peer-to-Peer Networks](papers/baton_a_balanced_tree_structure_for_peer_to_peer_networks.pdf) by H. V. Jagadish, Beng Chin Ooi, Martin Rinard, and Quang Hieu Vu
+
 [CAN-QTree: A Distributed Spatial Index for Peer-to-Peer Networks](papers/can_qtree_a_distributed_spatial_index_for_peer_to_peer_networks.pdf) by Zuo Huaiyu, Jing Ning, Deng Yadan, and Chen Luo
 
 [GCUBE Indexing](papers/gcube_indexing.pdf) by M. Laxmaiah and A. Govardhan
