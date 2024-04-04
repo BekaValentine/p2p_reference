@@ -326,6 +326,8 @@ By similarity search, I mean to restrict to things which are not just some varia
 
 [Efficient processing of XPath queries with structure overlay networks](papers/efficient_processing_of_xpath_queries_with_structured_overlay_networks.pdf) by Gleb Skobeltsyn, Manfred Hauswirth, and Karl Aberer
 
+[Optimizing SPARQL queries over decentralized knowledge graphs](papers/optimizing_sparql_queries_over_decentralized_knowledge_graphs.pdf) by Christian Aebeloe, Gabriela Montoya, and Katja Hose
+
 [Peer Selection in Peer-to-Peer Networks with Semantic Topologies](papers/peer_selection_in_peer_to_peer_networks_with_semantic_topologies.pdf) by Peter Haase, Ronny Siebes, and Frank van Harmelen
 
 [Publish/Subscribe for RDF-based P2P Networks](papers/publish_subscribe_for_rdf_based_p2p_networks.pdf) by Paul-Alexandru Chirita, Stratos Idreos, Manolis Koubarakis, and Wolfgang Nejdl

@@ -1,9 +1,9 @@
-@title  RDF, Knowledge Graphs, Graph Databases, Document Stores
+@title  RDF, Knowledge Graphs, Document Stores
 @date   2024-04-02
 @author beka
 @tags   rdf, knowledge graph, graph database, document store, freebase, mongodb
 
-# RDF, Knowledge Graphs, Ontologies, Document Stores
+# RDF, Knowledge Graphs, Document Stores
 
 One particularly interesting realm of p2p technology is a place where it intersects the semantic web and related topics from the late 90s and early 2000s. In particular, p2p approaches to things like RDF, graph databases, document stores such as MongoDB, etc. are a challenging but potentially very useful thing to have.
 
