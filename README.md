@@ -2,6 +2,10 @@
 
 A reference for p2p tech
 
+## License
+
+The original articles in this reference are licensed under CC BY-NC-SA 4.0. All papers and books are copyright their authors.
+
 ## Tooling Note
 
 This repo is meant to be used with my [python site generator](https://github.com/BekaValentine/python_site_generator).
